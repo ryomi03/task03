@@ -25,7 +25,7 @@ public class game{
 	    else tailcount++;
 	}
  System.out.println("Heads: " + headcount + ", Tails: " + tailcount);
- if(headcount > tailcount) System.out.println("You won!");
- else System.out.println("You lost!");
+ if(headcount > tailcount) System.out.println(name + " won!");
+ else System.out.println(name + " lost!");
  }
  }
